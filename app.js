@@ -1,11 +1,18 @@
 (function() {
+    /*
     var MISS = 4;
     var images = [];
 
     var reqUrl = 'http://protected-atoll-14662.herokuapp.com/CEJSVR';
+    */
 
-    var interval = setInterval(check, 3500);
+    // var interval = setInterval(check, 3500);
 
+    // clearInterval(interval);
+    // document.querySelector('a-node').load();
+    document.querySelector('.container').style.display = 'none';
+
+    /*
     function start(list) {
         list.forEach(function(item) {
             var ent = item.entities;
@@ -46,4 +53,6 @@
 
         request.send();
     }
+
+    */
 })();

@@ -51,27 +51,28 @@
     <a-scene>
         <a-assets>
             <img id="shadow2" src="radial-shadow-2.png">
-            <img id="ui" src="carreta-furacao.jpg">
+            <img id="u1" src="images/1.jpg">
+            <img id="u2" src="images/2.jpg">
+            <img id="u3" src="images/3.jpg">
+            <img id="u4" src="images/4.jpg">
         </a-assets>
 
-        <a-curvedimage src="#ui" id="u1" radius="5.7" theta-length="100" height="9"
+        <a-curvedimage src="#u1" id="u1" radius="5.7" theta-length="100" height="9"
                      rotation="0 90 0" scale="1.2 1.2 1.2"></a-curvedimage>
-        <a-curvedimage src="#ui" id="u2" radius="5.7" theta-length="70" height="3.02"
+        <a-curvedimage src="#u2" id="u2" radius="5.7" theta-length="70" height="3.02"
                      rotation="0 -130 0" scale="-0.8 0.8 -0.8"></a-curvedimage>
-        <a-curvedimage src="#ui" id="u3" radius="5.7" theta-length="50" height="3.02"
+        <a-curvedimage src="#u3" id="u3" radius="5.7" theta-length="50" height="3.02"
                      rotation="0 200 0" scale="0.6 0.6 0.6"></a-curvedimage>
-        <a-curvedimage src="#ui" id="u4" radius="5.7" theta-length="90" height="5"
+        <a-curvedimage src="#u4" id="u4" radius="5.7" theta-length="90" height="5"
                      rotation="0 250 0" scale="1 1 1"></a-curvedimage>
 
         <a-image position="0 -5 0" src="#shadow2" rotation="-90 0 0" scale="6 6 6"></a-image>
 
-        <a-node>
-            <a-sky color="#FFF"></a-sky>
-        </a-node>
+        <a-sky color="#FFF"></a-sky>
 
         <a-camera position="0 1.8 1.5"></a-camera>
     </a-scene>
 
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
 </body>
 </html>
